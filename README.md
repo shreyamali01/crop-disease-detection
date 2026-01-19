@@ -26,7 +26,7 @@ Place the dataset inside a folder named `PlantVillage/` before training.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 The CNN model consists of:
 - Image resizing and normalization
 - Data augmentation (random flips and rotations)
@@ -51,6 +51,10 @@ The CNN model consists of:
 - **Training Accuracy:** ~99%  
 - **Validation Accuracy:** Up to 100%  
 - **Test Accuracy:** **94.5%**
+
+![Accuracy and Loss](results/output.png)
+
+![Actual v/s Predicted](results/actualvspredicted.png)
 
 The model demonstrates strong generalization performance on unseen test data.
 
